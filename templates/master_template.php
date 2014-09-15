@@ -65,9 +65,9 @@
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="../navbar/">Default</a></li>
 				<li><a href="../navbar-static-top/">Static top</a></li>
-                <li><a href="/blog/login">Login</a></li>
-                <li><a href="/blog/logout">Logout</a></li>
-				<li class="active"><a href="./">Fixed top</a></li>
+                <li><a href="<?= BASE_URL ?><?= $auth->logged_in == true? 'Logout' : 'Login' ?>"><?=$auth->logged_in == true? 'Logout' : 'Login' ?></a></li>
+
+                <li class="active"><a href="./">Fixed top</a></li>
 			</ul>
 		</div><!--/.nav-collapse -->
 	</div>
