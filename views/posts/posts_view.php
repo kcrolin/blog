@@ -1,8 +1,8 @@
 <div class="span8"> <h1><?= $post['post_subject'] ?></h1>
 
     <p><?= $post['post_text'] ?></p>
-
-    <div> <span class="badge badge-success">Posted 2012-08-02 20:47:04</span>
+    <p><?= $post['user_id'] ?></p>
+    <div> <span class="badge badge-success"><p><?=$post['post_created']?></p></span>
 
         <div class="pull-right"> <? foreach ($tags as $tag): ?>
                 <a href="#"><span class="label label -info"> <?= $tag['tag_name'] ?></span></a>
