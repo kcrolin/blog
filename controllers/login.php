@@ -1,6 +1,6 @@
 <?php /** * Created by PhpStorm. * User: Maile * Date: 15.09.14 * Time: 12:27 */
 
-class login extends Controller {
+class login extends controller {
     public $requires_auth = true;
     function index() { header('Location: '.BASE_URL); } }
 
