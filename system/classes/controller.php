@@ -1,6 +1,6 @@
 <?php
 
-class Controller
+class controller
 {
 	public $template = 'master';
 	public $requires_auth = false;
