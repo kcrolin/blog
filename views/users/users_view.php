@@ -34,8 +34,3 @@
 </table>
 <br>
 <br>
-<form action="users/edit<?= $user['user_id'] ?>">
-    <button class="btn btn-info">
-        Edit <?=$user['username'] ?>
-    </button>
-</form>
