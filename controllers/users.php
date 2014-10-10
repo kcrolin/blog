@@ -1,6 +1,6 @@
 <?php
 
-class users extends Controller
+class users extends controller
 {
     public $requires_auth = true;
     function index()
