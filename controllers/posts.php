@@ -23,5 +23,5 @@ class posts extends controller{
     function view_post() {
         $data = $_POST['data'];
         $data['post_id'] = $this->params[0];
-        $data['comment_author'] = $_SESSION['user_id'];
+        $data['comment_author'] = 'Klaabu';
         INSERT('comment',$data); } } ?>
